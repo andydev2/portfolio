@@ -1,4 +1,4 @@
-/* GENERAL */
+/* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Patua+One&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
@@ -6,6 +6,23 @@
   margin: 0;
   padding: 0;
 }
+
+/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 30spx;
+}
+::-webkit-scrollbar-track{
+  background: #dfdfdf;
+}
+::-webkit-scrollbar-thumb{
+  background: #ffe0e0;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #ffefef;
+}
+
 
 body {
   font-family: "Poppins", sans-serif;
@@ -286,16 +303,34 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: #DAC7FF;
-  background: linear-gradient(270deg, #DAC7FF, #FFCFF6);
+  background-image: linear-gradient(
+    90deg,
+    hsl(287deg 100% 86%) 0%,
+    hsl(283deg 100% 86%) 5%,
+    hsl(279deg 100% 87%) 10%,
+    hsl(275deg 100% 87%) 17%,
+    hsl(271deg 100% 87%) 26%,
+    hsl(267deg 100% 87%) 37%,
+    hsl(263deg 100% 87%) 50%,
+    hsl(259deg 100% 87%) 62%,
+    hsl(254deg 100% 87%) 71%,
+    hsl(250deg 100% 88%) 79%,
+    hsl(246deg 100% 88%) 84%,
+    hsl(242deg 100% 88%) 88%,
+    hsl(237deg 100% 87%) 92%,
+    hsl(234deg 100% 87%) 94%,
+    hsl(231deg 100% 86%) 97%,
+    hsl(228deg 100% 85%) 99%,
+    hsl(226deg 100% 85%) 100%
+  );
   color: #000;
 }
 .btn-color-2:hover {
-  scale: 1.1;
+  scale: 1.05;
 }
 
 .btn-color-1:hover {
-  scale: 1.1;
+  scale: 1.05;
   box-shadow: 5px 5px 5px #747474;
 }
 
@@ -359,8 +394,8 @@ section {
   cursor: pointer;
 }
 .details-container:hover {
-  scale: 1.04;
-  transition: 0.5s;
+  transform: scale(1.05);
+  transition: 0.4s;
   box-shadow: 5px 5px 5px #747474;
 }
 
@@ -474,7 +509,7 @@ article .icon {
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
 }
 
 .email-icon {
