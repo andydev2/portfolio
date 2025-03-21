@@ -205,7 +205,7 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 15rem;
   height: 80vh;
 }
 
@@ -216,7 +216,7 @@ section {
   margin: auto 0;
 }
 .section__pic__modifi {
-  border-radius: 40px;
+  border-radius: 50px;
 }
 
 .section__text {
