@@ -268,15 +268,21 @@ section {
 
 .icon {
   cursor: pointer;
+  font-size: 32px;
+  color: #000;
   height: 2rem;
 }
-.icon__hover {
-  cursor: pointer;
+.icon:hover{
+  color: #000;
 }
+.icon__hover {
+  padding: 10px 0 0 0;
+}
+
 .icon__hover:hover {
   scale: 1.1;
   transition: 0.5s;
-  filter: drop-shadow(0px 0px 3px #adadad);
+  color: #000;
 }
 
 /* BUTTONS */
