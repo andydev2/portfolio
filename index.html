@@ -35,10 +35,10 @@
         <ul class="nav-links">
 
           
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about" aria-label="this link takes you to the about me section" >About</a></li>
+          <li><a href="#experience" aria-label="this link takes you to the experiences section" >Experience</a></li>
+          <li><a href="#projects" aria-label="this link takes you to the projects section" >Projects</a></li>
+          <li><a href="#contact" aria-label="this link takes you to the contact section" >Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -51,10 +51,10 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" aria-label="this link takes you to the about me section" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" aria-label="this link takes you to the experience section" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" aria-label="this link takes you to the projects section" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" aria-label="this link takes you to the contact section" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -68,19 +68,20 @@
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
           <button
+            aria-label="button of Download Cv"
             class="btn btn-color-2"
             onclick="window.open('./assets/resume-example.pdf')">
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button aria-label="button of contact info" class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
         <!--icon sections-->
         <div id="socials-container">
-          <a href="#" target="_blank" title="icon of linkedin profile" class="icon icon__hover"><ion-icon name="logo-linkedin"></ion-icon></a>
-          <a href="https://github.com/andydev2" target="_blank" title="icon of github profile" class="icon icon__hover"><ion-icon name="logo-github"></ion-icon></a>
-          <a href="https://www.instagram.com/akira.san__/" target="_blank" title="icon of instagram profile" class="icon icon__hover"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#" target="_blank" title="linkedin icon" aria-label="icon of linkedin profile" class="icon icon__hover"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="https://github.com/andydev2" target="_blank" title="github icon" aria-label="icon of github profile" class="icon icon__hover"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="https://www.instagram.com/akira.san__/" target="_blank" title="instagram icon" aria-label="icon of instagram profile" class="icon icon__hover"><ion-icon name="logo-instagram"></ion-icon></a>
         </div>
 
       </div>
@@ -98,12 +99,12 @@
         <div class="about-details-container">
           <div class="about-containers">
             <div class="details-container">
-              <a href="#" title="icon of medal" class="icon"><ion-icon name="medal-outline"></ion-icon></a>
+              <a href="#" title="medal icon" aria-label="icon of medal" class="icon"><ion-icon name="medal-outline"></ion-icon></a>
               <h3>Experience</h3>
               <p class="about__Parrafo">2+ years <br />Frontend Development</p>
             </div>
             <div class="details-container">
-              <a href="#" title="icon of heart" class="icon"><ion-icon name="heart-outline"></ion-icon></a>
+              <a href="#" title="heart icon" aria-label="icon of heart" class="icon"><ion-icon name="heart-outline"></ion-icon></a>
               <h3>Interests</h3>
               <p class="about__Parrafo">Photography, music, and programming:<br />my passions that inspire and energize me</p>
             </div>
@@ -130,28 +131,28 @@
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
-                <a href="#" title="icon of html" class="icon"><ion-icon name="logo-html5"></ion-icon></a>
+                <a href="#" title="html icon" aria-label="icon of html5" class="icon"><ion-icon name="logo-html5"></ion-icon></a>
                 <div>
                   <h3>HTML</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <a href="#" class="icon" title="icon of css"><ion-icon name="logo-css3"></ion-icon></a>
+                <a href="#" class="icon" title="css icon" aria-label="icon of css" ><ion-icon name="logo-css3"></ion-icon></a>
                 <div>
                   <h3>CSS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
               <article>
-                <a href="#" title="icon of sass" class="icon"><ion-icon name="logo-sass"></ion-icon></a>
+                <a href="#" title="sass icon" aria-label="icon of sass" class="icon"><ion-icon name="logo-sass"></ion-icon></a>
                 <div>
                   <h3>SASS</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
               <article>
-                <a href="#" title="icon of JavaScript" class="icon"><ion-icon name="logo-javascript"></ion-icon></a>
+                <a href="#" title="JavaScript icon" aria-label="icon of javascript" class="icon"><ion-icon name="logo-javascript"></ion-icon></a>
                 <div>
                   <h3>JavaScript</h3>
                   <p>Advanced</p>
@@ -196,7 +197,7 @@
                 </div>
               </article>
               <article>
-                <a href="#" title="icon of node js" class="icon"><ion-icon name="logo-nodejs"></ion-icon></a>
+                <a href="#" title="node js icon" aria-label="icon of node js" class="icon"><ion-icon name="logo-nodejs"></ion-icon></a>
                 <div>
                   <h3>Node JS</h3>
                   <p>Intermediate</p>
@@ -215,7 +216,7 @@
                 </div>
               </article>
               <article>
-                <a href="#" title="icon of react" class="icon"><ion-icon name="logo-react"></ion-icon></a>
+                <a href="#" title="react js" aria-label="icon of react js" class="icon"><ion-icon name="logo-react"></ion-icon></a>
                 <div>
                   <h3>React</h3>
                   <p>Intermediate</p>
@@ -228,7 +229,7 @@
             <h2 class="experience-sub-title">Additional Skills</h2>
             <div class="article-container">
               <article>
-                <a href="#" title="icon of python" class="icon"><ion-icon name="logo-python"></ion-icon></a>
+                <a href="#" title="python icon" aria-label="icon of python" class="icon"><ion-icon name="logo-python"></ion-icon></a>
                 <div>
                   <h3>Python</h3>
                   <p>Advanced</p>
@@ -294,12 +295,14 @@
             <h2 class="experience-sub-title project-title">PixeLap</h2>
             <div class="btn-container">
               <button
+                aria-label="button of github repo"
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/pixelaap/PixeLap'"
               >
                 Github
               </button>
               <button
+                aria-label="button of live demo"
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://pixelap.vercel.app/'"
               >
@@ -317,13 +320,13 @@
             </div>
             <h2 class="experience-sub-title project-title">Weather app</h2>
             <div class="btn-container">
-              <button
+              <button aria-label="button of github repo"
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/pixelaap/weatherapp'"
               >
                 Github
               </button>
-              <button
+              <button aria-label="button of live demo"
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://weatherapp-vert-ten.vercel.app/'"
               >
@@ -341,13 +344,13 @@
             </div>
             <h2 class="experience-sub-title project-title">COMING SOON</h2>
             <div class="btn-container">
-              <button
+              <button aria-label="button of github repo"
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='#'"
               >
                 Github
               </button>
-              <button
+              <button aria-label="button of live demo"
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='#'"
               >
@@ -368,11 +371,11 @@
       <h2 class="title">Contact Me</h2>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <a target="_blank" title="icon of mail contact" href="mailto:andyz1238@gmail.com?" class="icon contact-icon email-icon"><ion-icon name="mail"></ion-icon></a>
+          <a target="_blank" title="email icon" aria-label="icon of email contact" href="mailto:andyz1238@gmail.com?" class="icon contact-icon email-icon"><ion-icon name="mail"></ion-icon></a>
           <p><a href="mailto:andyz1238@gmail.com?">andyz1238@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <a target="_blank" title="icon of whatsapp contact" href="https://wa.link/4tjzb4" class="icon contact-icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
+          <a target="_blank" title="whatsapp icon" aria-label="icon of whatsapp contact" href="https://wa.link/4tjzb4" class="icon contact-icon"><ion-icon name="logo-whatsapp"></ion-icon></a>
           <p><a target="_blank" href="https://wa.link/4tjzb4">Whatsapp</a></p>
         </div>
       </div>
