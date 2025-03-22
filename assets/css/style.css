@@ -244,6 +244,7 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   padding: 1.4rem 0;
+  color: #0083c4;
 }
 
 .title {
@@ -395,7 +396,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: #eee9;
   opacity: 1;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -467,7 +468,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: #eee9;
 }
 
 .project-img {
