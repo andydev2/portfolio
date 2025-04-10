@@ -519,7 +519,8 @@ small {
     }
     .home-content1 img {
         padding-top: 2rem;
-        left: 9rem;
+        left: 2rem;
+        top: 0;
     }
     .home-content2 img {
         top: 0;
@@ -577,23 +578,6 @@ small {
     }
     .inside-element, .inside-element:nth-child(1), .column-one {
         grid-template-columns: 1fr;
-    }
-
-    .manage img {
-        position: relative;
-        right: -2rem;
-        max-width: 80%;
-    }
-    
-    .posting img {
-        position: relative;
-        bottom: -1rem;
-       left: 0;
-    }
-    .followers {
-        text-align: center;
-        grid-template-columns: 1fr;
-        padding: 1rem;
     }
 
     /* footer section */
