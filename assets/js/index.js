@@ -1,5 +1,5 @@
 let sec = document.querySelectorAll("section");
-let links = document.querySelectorAll("header nav ul li a");
+let links = document.querySelectorAll(".nav-link");
 
 window.onscroll = () => {
   sec.forEach((section) => {
@@ -12,7 +12,7 @@ window.onscroll = () => {
       links.forEach((link) => {
         link.classList.remove("active");
         document
-          .querySelector("header nav ul li a[href*=" + id + "] ")
+          .querySelector(".nav-link[href*=" + id + "] ")
           .classList.add("active");
       });
     }
