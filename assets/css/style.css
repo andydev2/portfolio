@@ -479,8 +479,30 @@ h2 {
   text-decoration: underline;
 }
 /* media query */
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1010px) and (min-width: 650px) {
   /*home section*/
+
+  /*text edit*/
+  .text-home {
+    font-size: 17px;
+  }
+
+  h1,
+  .text-home1 .home-text1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .text-home1 .home-text2 {
+    font-size: 18px;
+  }
+
+  .title-home {
+    font-size: 25px;
+  }
+  .text-home {
+    font-size: 16px;
+  }
   .bento-grid-container-home {
     grid-template-columns: 1fr;
     grid-template-rows: 24rem 24rem 24rem;
