@@ -568,12 +568,18 @@ h2 {
       "box3";
     gap: 2rem;
   }
+  .home-content1 {
+    .btn {
+      padding: 7px 20px;
+    }
+  }
   .home-grid-item {
     border-radius: 0.5rem;
   }
   .home-content1 img {
-    padding-top: 2rem;
-    left: 6.4rem;
+    padding-top: 1.3rem;
+    left: 50%;
+    transform: translateX(-50%);
     top: -0.2rem;
   }
   .home-content2 img {
