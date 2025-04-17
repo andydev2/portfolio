@@ -561,7 +561,7 @@ h2 {
   /*home section*/
   .bento-grid-container-home {
     grid-template-columns: 1fr;
-    grid-template-rows: 25rem 20rem 20rem;
+    grid-template-rows: 22rem 15rem 17rem;
     grid-template-areas:
       "box1"
       "box2"
@@ -574,10 +574,10 @@ h2 {
   .home-content1 img {
     padding-top: 2rem;
     left: 6.4rem;
-    top: 0.5rem;
+    top: -0.2rem;
   }
   .home-content2 img {
-    top: 5.2rem;
+    top: 1rem;
     right: -4rem;
     width: 100%;
   }
@@ -593,7 +593,7 @@ h2 {
 
   /*text edit*/
   .title-home {
-    font-size: 19px;
+    font-size: 21px;
   }
   .text-home {
     font-size: 14px;
