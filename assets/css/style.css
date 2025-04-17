@@ -219,7 +219,8 @@ a {
   position: relative;
   left: 16.5rem;
   padding-top: 10px;
-  max-width: 80%;
+  width: 80%;
+  height: fit-content;
   filter: drop-shadow(5px 5px 5px #000);
 }
 
@@ -233,7 +234,8 @@ a {
 }
 .home-content2 img {
   position: relative;
-  max-width: 100%;
+  width: 100%;
+  height: fit-content;
   top: 0;
   right: -4.5rem;
   filter: drop-shadow(5px 5px 5px #000);
@@ -258,7 +260,8 @@ a {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 80%;
+  width: 80%;
+  height: fit-content;
   filter: drop-shadow(10px 5px 8px #000);
 }
 
@@ -341,7 +344,8 @@ h2 {
 }
 .pixelap img {
   position: relative;
-  max-width: 300px;
+  width: 300px;
+  height: fit-content;
   left: -25px;
   filter: drop-shadow(1px 5px 3px #000);
 }
@@ -486,9 +490,12 @@ h2 {
       "box3 box3";
   }
   .home-content2 img {
-    max-width: 100%;
+    width: 75%;
     top: 0;
     right: -13rem;
+  }
+  .home-content3 .content3-image {
+    width: 45%;
   }
 
   /*projects section*/
@@ -549,12 +556,16 @@ h2 {
   .home-content2 img {
     top: 3.5rem;
     right: -4rem;
+    width: 100%;
   }
   .home-content3 .icon-read {
     width: 1.6rem;
     height: 1.6rem;
     right: 2rem;
     top: 1.7rem;
+  }
+  .home-content3 .content3-image {
+    width: 70%;
   }
 
   /*text edit*/
