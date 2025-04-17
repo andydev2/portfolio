@@ -479,7 +479,7 @@ h2 {
   text-decoration: underline;
 }
 /* media query */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1010px) {
   /*home section*/
   .bento-grid-container-home {
     grid-template-columns: 1fr;
